@@ -1,0 +1,37 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+    background-color: #d2691e;
+    color: white;
+}
+
+#content {
+    padding: 20px;
+}
+#content image {
+    max-width: 100%;   /* Make the image responsive to the container's width */
+    height: auto;      /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners for a polished look */
+    margin-top: 20px;  /* Add space around the image */
+    max-height: 400px; /* Optional: limit the max height */
+}
